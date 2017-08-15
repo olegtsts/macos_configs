@@ -1,0 +1,153 @@
+После отпуска:
+7) катить дальше https://st.yandex-team.ru/BSRELEASE-93813
+8) катить bstat-updaters
+6) удаление баннеров https://st.yandex-team.ru/BSDEV-63950
+8) Фильтрация 61 фильтра и графики Автобюджета на оболочке
+7) https://st.yandex-team.ru/BSDEV-65108 быстрые рекоммендации
+1) Продумать АБ для охватного продукта https://st.yandex-team.ru/BSDEV-65173
+12) https://rb.yandex-team.ru/arc/r/302907/ стилистические замечания
+7) Нужно ли включить ограничивалку lm-phrase не на перформансе?
+
+АБ непродуманные задачи:
+1) Продумать АБ для охватного продукта https://st.yandex-team.ru/BSDEV-65173
+13) https://st.yandex-team.ru/BSDEV-65116 подумать про несколько целей
+проблемы с РФ https://st.yandex-team.ru/BSDEV-64257
+Инфраструктура под автобюджет на уровне аккаунт, групппа групп объявлений, кампания - тикет от БК
+
+АБ в разработке:
+отделенная задача про загрузку статистики https://st.yandex-team.ru/BSDEV-64820
+	pshvetsov ближайшее время
+сколзящий рассчет для gready_coeff https://st.yandex-team.ru/BSDEV-64821
+	m-ustinov след неделя
+буст ставок https://st.yandex-team.ru/BSDEV-64810
+распиливание APC-прооноза https://st.yandex-team.ru/BSDEV-64811
+оптимизация netcpcoptimize через оболочку https://st.yandex-team.ru/BSDEV-50113
+wait-autobudget https://st.yandex-team.ru/BSDEV-58861
+
+АБ релиз кандидаты:
+VCG marginal cost https://st.yandex-team.ru/BSDEV-64801
+
+AБ включения:
+
+
+10) новая разработка в движке https://st.yandex-team.ru/BSSERVER-3039
+14) подумать про ограничения на clientid
+9) выполнить ваншот https://st.yandex-team.ru/BSRELEASE-85291
+12) https://st.yandex-team.ru/BSDEV-64139
+14)BSDEV-63007
+13) https://st.yandex-team.ru/BSDEV-63891
+11) заново дебажить перформанс
+5) расписать тикеты подумать о новой оптимизации https://wiki.yandex-team.ru/AnastasijaBalakina/Oxvatnyjj-produkt/
+15) веронуться к разработке viewer-а (sandbox-scripts)
+95:~ olegts$ ls sandbox-scripts-diff
+sandbox-scripts-diff
+
+12:57
+14:16
+14:52
+14:54
+15:36
+17:24
+18:50
+
+RAST:
+	https://habrahabr.ru/post/251267/
+	https://habrahabr.ru/post/250383/
+	https://www.justsoftwaresolutions.co.uk/threading/intel-memory-ordering-and-c++-memory-model.html
+
+https://yandexdataschool.ru/edu-process/courses/parallel#item-1
+
+
+file:///Users/olegts/Downloads/Cracking%20the%20Coding%20Interview.pdf
+
+
+Проверяемые опции:
+  - autobudget-flat-hull-simple-quadratic-extrapolation-enabled
+  - autobudget-calc-flat-using-hulls
+  - autobudget-picture-min-cost-in-flat-hull
+	- среда, 26 июля 2017 г. 13:46:42 (MSK) запустил на bstat2*
+	- воскресенье, 13 августа 2017 г. 22:20:50 (MSK) запустил везде с реверсивным экспериментом
+  - после оболочки необходимо включить autobudget-forecast-zero-actions-client-const
+
+  - autobudget-fail-on-yt-connection-failure=1
+     - вторник,  4 апреля 2017 г. 13:18:14 (MSK) выключили из-за падений соединения
+     - ждем релиза yabs-autobudget=109.1 чтобы там был дебаг-лог
+     - ждем релиза yabs-autobudget2=120.1
+
+  - rtbgroupstat-autobudget-oscillator-algorithm-pages	 пока выключили площадку  https://st.yandex-team.ru/YANPARTNERS-14#1493293649000
+
+  - autobudget-load-ABFastAdjustedStat-from-yt
+     - среда, 22 марта 2017 г. 11:41:50 (MSK) на тестовом хосте
+     - 12:41 проверяем
+     - на тестинге падает
+     - перестало падать после реконфигурации dns
+     - получить подтверждение от Коли что на проде нормально настроен dns
+     - надо ставить на прод
+     - четверг, 23 марта 2017 г. 16:06:49 (MSK) проставил на bstat01?
+     - 20:06 проверка статистики
+     - надо изменить input_row_limit
+     - ждем релиза yabs-autobudget=109.1
+     - вторник, 18 апреля 2017 г. 13:00:48 (MSK) включил снова на bstat01
+     - хочется 1) посмотреть на графики Автобюджета 2) подождать yabs-yt-api=000.129
+     - и то и другое есть, можно уже экспериментировать на 10-ке
+     - пятница, 21 апреля 2017 г. 13:07:53 (MSK) поставили на bstat4??
+
+
+
+  - broadmatch-limitation-new-expstat
+     - требует графиков перетрат и недотрат
+     - понедельник, 17 апреля 2017 г. 17:17:37 (MSK) таблицы перезагруженыo
+     - понедельник, 17 апреля 2017 г. 17:18:05 (MSK) опция поставлена
+
+  - rtbgroupstat-work-with-controlpoint
+     - проверяем таблицы с контрольными точками и включаем
+     - понедельник,  3 апреля 2017 г. 13:19:34 (MSK) включил для площадки видео
+     - 17:19 проверка статистики
+     - 4 апреля тоже проверяем
+     - хотим доработку про перескок за 1
+     - ждем релзиа rtb-adaptive=038.1
+
+  - autobudget-do-not-optimize-search-on-retargeting
+     - понедельник, 20 марта 2017 г. 15:53:24 (MSK) поставили на тестинг
+     - 16:53 проверка
+     - понедельник, 20 марта 2017 г. 17:15:32 (MSK) поставил на bstat01?
+     - надо включать на 10-ке
+     - среда, 22 марта 2017 г. 11:53:00 (MSK) включил на bstat2??
+     - 12:53 проверять
+     - 15:53 проверяем статистику
+     - плохая статистика, пока выключаем
+     - надо ставить на 10-ку еще рза
+
+
+
+
+Выставленные частично:
+  - autobudget-flat-hull-simple-quadratic-extrapolation-enabled
+     - понедельник, 27 февраля 2017 г. 14:50:43 (MSK) включена опция
+     - 15:50 проверим что ничего не сломалось
+     - 18:50 графики
+     - понедельник, 27 февраля 2017 г. 19:08:10 (MSK) bstat5??
+     - 20:08 проверка ошибок
+     - 23:08 проверка графиков
+     - понедельник, 27 февраля 2017 г. 23:14:29 (MSK) статистика плохая
+     - утром проверить
+     - включаем снова после погруппового Автобюджета
+
+Невыставленные:
+  - autobudget-forecast-enable-apc-vw-group
+  - autobudget-forecast-enable-ppc-vw-group
+  - autobudget-flat-hull-use-prior
+
+  - autobudget-load-flat-buckets-improved
+  - autobudget-phrase-rotation
+  - autobudget-set-min-bid-when-turning-off-banners
+  - autobudget-skip-goalbannerxx-updating
+  - autobudget-filter-russian-coeffs
+  - autobudget-ABBannerPhraseCurWeek-by-GroupExportID
+  - autobudget-experiment-with-vw-apc
+  - autobudget-scale-bid-max-click-cost-depends-on-result
+Хотим снять:
+
+Плохие опции:
+  - autobudget-use-banner-phrase-roi-avgcpa-limitation
+
