@@ -1,16 +1,17 @@
-7) https://st.yandex-team.ru/BSDEV-65108 быстрые рекоммендации
-1) Реализовать логику в транспорте https://st.yandex-team.ru/BSDEV-65173
+3) Проанализировать букинг
+8) катить bstat-updaters
+1) Реализовать логику в транспорте https://st.yandex-team.ru/BSDEV-65102
 	- average rf забить
 	- maxrf управляется только движком, мы его подсасываем через обратную связь
 	- maxrf надо прокинуть через контекст c количеством дней через логическое "и"
 	- надо снчала делать транспорт
 	- цена хранится за 1000 показов
 	- maxcpm, avgcpm, максимизация показов -- новые типы
-7) катить дальше https://st.yandex-team.ru/BSRELEASE-93813
-8) катить bstat-updaters
 3) Запланировать удаление AuctionBannerPhrase
 2) Продумать АБ + эксприменты над другими параметрами АБ
+6) Продумать несколько целей
 8) Фильтрация 61 фильтра и графики Автобюджета на оболочке
+9) ABPhraseClusterStat https://st.yandex-team.ru/BSDEV-62882
 12) https://rb.yandex-team.ru/arc/r/302907/ стилистические замечания
 7) Нужно ли включить ограничивалку lm-phrase не на перформансе?
 
@@ -34,7 +35,8 @@ wait-autobudget https://st.yandex-team.ru/BSDEV-58861
 VCG marginal cost https://st.yandex-team.ru/BSDEV-64801
 
 AБ включения:
-
+7) ждем релиза https://st.yandex-team.ru/BSDEV-65108 быстрые рекоммендации
+7) проверить как работает эксперимент Автобюджета про vcg
 
 10) новая разработка в движке https://st.yandex-team.ru/BSSERVER-3039
 14) подумать про ограничения на clientid
