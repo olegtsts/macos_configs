@@ -1,11 +1,16 @@
+11) PhrasePrice.BannerID -- анализируем расхождения
+-1) выложить https://st.yandex-team.ru/BSRELEASE-96332
+0) посмотреть жалобу -- вставляются ли записи в ExportABStatus https://st.yandex-team.ru/SUPBS-10323
+1) Посмотреть как работать с общим счетом
+2) export_order-auction-info.cgi https://st.yandex-team.ru/BSDEV-65319
 1) Реализовать логику в транспорте https://st.yandex-team.ru/BSDEV-65102
-	- ok average rf забить
-	- maxrf управляется только движком, мы его подсасываем через обратную связь
-	- maxrf надо прокинуть через контекст c количеством дней через логическое "и"
-	- ok надо снчала делать транспорт
-	- ok цена хранится за 1000 показов
-	- ok maxcpm, avgcpm, максимизация показов -- новые типы
-11) Еще раз пробовать альтерить PhrasePrice.BannerID
+	- paid-show в транспорте https://st.yandex-team.ru/BSRELEASE-95111 готов на выполнение
+	- paid-show во PhrasePrice https://st.yandex-team.ru/BSRELEASE-95508 готов на выполнение
+	- bstat-updaters https://st.yandex-team.ru/BSRELEASE-96174 (готов для выкладки)
+	- yabs-bssoap-www не собран
+	- qabs-soap-harness не собран
+	- qabs-soap-tests-direct не собран
+7) Проанализировать эксперимент Автобюжета
 6) Продумать несколько целей (посмотреть как в ретаргентинге это устроено, запланировать abconversion)
 5) Букинг: смотрим на то, как зарезались низкоконверсионные чуваки
 9) сравнить оболочку
@@ -17,6 +22,7 @@
 9) ABPhraseClusterStat https://st.yandex-team.ru/BSDEV-62882
 12) https://rb.yandex-team.ru/arc/r/302907/ стилистические замечания
 7) Нужно ли включить ограничивалку lm-phrase не на перформансе?
+8) посмотреть ограничение лимитов в сети https://st.yandex-team.ru/BSDEV-62905
 
 АБ непродуманные задачи:
 1) Продумать АБ для охватного продукта https://st.yandex-team.ru/BSDEV-65173
