@@ -1,7 +1,3 @@
-11) PhrasePrice.BannerID -- анализируем расхождения
--1) выложить https://st.yandex-team.ru/BSRELEASE-96332
-0) посмотреть жалобу -- вставляются ли записи в ExportABStatus https://st.yandex-team.ru/SUPBS-10323
-1) Посмотреть как работать с общим счетом
 2) export_order-auction-info.cgi https://st.yandex-team.ru/BSDEV-65319
 1) Реализовать логику в транспорте https://st.yandex-team.ru/BSDEV-65102
 	- paid-show в транспорте https://st.yandex-team.ru/BSRELEASE-95111 готов на выполнение
@@ -10,7 +6,7 @@
 	- yabs-bssoap-www не собран
 	- qabs-soap-harness не собран
 	- qabs-soap-tests-direct не собран
-7) Проанализировать эксперимент Автобюжета
+7) Проанализировать эксперимент Автобюжета -- обсудить https://st.yandex-team.ru/BSDEV-64801
 6) Продумать несколько целей (посмотреть как в ретаргентинге это устроено, запланировать abconversion)
 5) Букинг: смотрим на то, как зарезались низкоконверсионные чуваки
 9) сравнить оболочку
