@@ -1,6 +1,3 @@
-4) 2017-09-05 02:04:47,185 - root - WARNING - Waiting for replacing sdd есть ли заявка?  bstat63e
-5) дежурный сасово поговорить про bsdb11i
-6) посмотреть еще раз результаты эксперимента
 7) Посмотреть и ответить про CONTEXT.type новый (как для media-image и для media-creative)
 8) покатить релиз https://st.yandex-team.ru/BSRELEASE-96589
 3) увеличить периодичность BroadMatchSet -- изменить на 4 минуты периодичность
@@ -9,7 +6,7 @@
 	- https://direct.yandex.ru/logviewer/#bsexport_data,20170711T000001,20170711T235959,1:1001,2,par_id,source,cid,13108156
 6) https://st.yandex-team.ru/BSRELEASE-96233 расхождения b2b
 7) узнать про расхождения https://bsint.yandex-team.ru/audit/report_yt_20170901.html
-
+8) https://st.yandex-team.ru/SUPBS-10354
 
 2) export_order-auction-info.cgi https://st.yandex-team.ru/BSDEV-65319
 3) b2b Автобюджета + поддрежка yt
@@ -23,7 +20,7 @@
 	- графики http://ppcgraphite.yandex.ru/grafana/dashboard/db/direct-bsexport?refresh=2m&orgId=1
 	- подтверждение видимости
 	- добавить EShowsBase
-7) Проанализировать эксперимент Автобюжета -- обсудить https://st.yandex-team.ru/BSDEV-64801
+8) https://st.yandex-team.ru/DYNSMART-461 подумать про ошибку эксперимента
 6) Продумать несколько целей (посмотреть как в ретаргентинге это устроено, запланировать abconversion)
 5) Букинг: смотрим на то, как зарезались низкоконверсионные чуваки
 9) сравнить оболочку
