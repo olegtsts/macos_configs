@@ -1,26 +1,14 @@
-7) Посмотреть и ответить про CONTEXT.type новый (как для media-image и для media-creative)
-8) покатить релиз https://st.yandex-team.ru/BSRELEASE-96589
-4) https://st.yandex-team.ru/SUPBS-10281
-	- https://bsint.yandex-team.ru/cgi-bin/orderinfo.cgi?group_orderid=&orderid=5579554&order_exportid=&bannerid=&banner_exportid=&banner_group_exportid=&pushbtn=Найти&date=&countertype=&phraseid=&phrase=
-	- https://direct.yandex.ru/logviewer/#bsexport_data,20170711T000001,20170711T235959,1:1001,2,par_id,source,cid,13108156
-6) https://st.yandex-team.ru/BSRELEASE-96233 расхождения b2b
-8) https://st.yandex-team.ru/SUPBS-10354
-10) исправить конфиг hw-watcher
-[smart]
-ssd_wearout_threshold = 5
-11) исправить table_sizes на WARN
-
 1) Букинг -- рассчет price через вероятности
 2) export_order-auction-info.cgi https://st.yandex-team.ru/BSDEV-65319
 3) b2b Автобюджета + поддрежка yt
 1) Реализовать логику в транспорте https://st.yandex-team.ru/BSDEV-65102
-	- paid-show во PhrasePrice https://st.yandex-team.ru/BSRELEASE-95508 готов на выполнение
 	- bstat-updaters https://st.yandex-team.ru/BSRELEASE-96174 (готов для выкладки)
 	- yabs-bssoap-www готов для выкладки
 	- графики https://grafana.yandex-team.ru/dashboard/db/bs-transport-bol-shoi-transport?orgId=1&from=now-12h&to=now
 	- графики http://ppcgraphite.yandex.ru/grafana/dashboard/db/direct-bsexport?refresh=2m&orgId=1
 	- подтверждение видимости
 	- добавить EShowsBase в миллионнных долях, MaxRF в миллионных долях, RFDays
+	- PlaceID = 1542
 8) https://st.yandex-team.ru/DYNSMART-461 подумать про ошибку эксперимента
 6) Продумать несколько целей (посмотреть как в ретаргентинге это устроено, запланировать abconversion)
 5) Букинг: смотрим на то, как зарезались низкоконверсионные чуваки
