@@ -1,21 +1,26 @@
+Незакоммиченные папки
+autobudget3
+/root/yabs-bssoap-www
+bsbuffer05
+
 1) Букинг -- рассчет price через вероятности
-2) export_order-auction-info.cgi https://st.yandex-team.ru/BSDEV-65319
-3) b2b Автобюджета + поддрежка yt
 1) Реализовать логику в транспорте https://st.yandex-team.ru/BSDEV-65102
-	- bstat-updaters https://st.yandex-team.ru/BSRELEASE-96174 (готов для выкладки)
+	- bstat-updaters https://st.yandex-team.ru/BSRELEASE-96174 проверяется на 10-ке
 	- yabs-bssoap-www готов для выкладки
 	- графики https://grafana.yandex-team.ru/dashboard/db/bs-transport-bol-shoi-transport?orgId=1&from=now-12h&to=now
 	- графики http://ppcgraphite.yandex.ru/grafana/dashboard/db/direct-bsexport?refresh=2m&orgId=1
 	- подтверждение видимости
-	- добавить EShowsBase в миллионнных долях, MaxRF в миллионных долях, RFDays
-	- PlaceID = 1542
+	- Context->{Type} = cpm_banner (накодили)
+	- добавить EShowsBase в миллионнных долях, MaxRF в миллионных долях, RFDays (накодили)
+	- PlaceID = 1542 (в BannerXX.PlaceID и в контексте баннера)
+!!!) только для поиска разрабатываем только недельный бюджет и РОИ и перевозим заказы и этого получается достаточно для первого запуска который надо успеть за три недели
+2) export_order-auction-info.cgi https://st.yandex-team.ru/BSDEV-65319
+3) b2b Автобюджета + поддрежка yt
 8) https://st.yandex-team.ru/DYNSMART-461 подумать про ошибку эксперимента
 6) Продумать несколько целей (посмотреть как в ретаргентинге это устроено, запланировать abconversion)
-5) Букинг: смотрим на то, как зарезались низкоконверсионные чуваки
-9) сравнить оболочку
 2) Написать тест на region-id
 3) Запланировать удаление AuctionBannerPhrase
-2) Продумать АБ + эксприменты над другими параметрами АБ
+2) Продумать АБ + эксприменты над другими параметрами АБ (эксперименты по рекомендациям на изменение параметров)
 8) Фильтрация 61 фильтра и графики Автобюджета на оболочке
 9) ABPhraseClusterStat https://st.yandex-team.ru/BSDEV-62882
 12) https://rb.yandex-team.ru/arc/r/302907/ стилистические замечания
@@ -82,7 +87,7 @@ file:///Users/olegts/Downloads/Cracking%20the%20Coding%20Interview.pdf
   - autobudget-picture-min-cost-in-flat-hull
 	- среда, 26 июля 2017 г. 13:46:42 (MSK) запустил на bstat2*
 	- воскресенье, 13 августа 2017 г. 22:20:50 (MSK) запустил везде с реверсивным экспериментом
-  - после оболочки необходимо включить autobudget-forecast-zero-actions-client-const
+	- понедельник, 11 сентября 2017 г. 12:39:43 (MSK) запустить везде (и на bstat4*)
 
   - autobudget-fail-on-yt-connection-failure=1
      - вторник,  4 апреля 2017 г. 13:18:14 (MSK) выключили из-за падений соединения
