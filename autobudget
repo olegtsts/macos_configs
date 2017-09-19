@@ -1,23 +1,22 @@
-Незакоммиченные папки
-autobudget3
-/root/yabs-bssoap-www
-bsbuffer05
-
+4) VCG
+	- autobudget-marginal-vcg-search-angle (включено на bstat5??), надо проверять
+5) AB + PhrasePrice.BannerID
+	- проставить опцию autobudget-skip-duplicate-phrases, чтобы включить правильную логику (включили на bstat3??)
+2) Запланировать стратегию охватного продукта https://st.yandex-team.ru/BSDEV-64258
 1) Букинг -- рассчет price через вероятности
+	- доделать скрипт который сам генерирует лог (применяем один из фидов букинга)
+5) Починить full_eir
+3) Стартануть задачу про GoalID bigint
+6) Перетраты резкие ContextLimit https://st.yandex-team.ru/BSDEV-62905
+	- включить autobudget-limit-flat-eis-with-spent-plan-money (включено на bstat02?) -- подождем результатов экспериментов
 1) Реализовать логику в транспорте https://st.yandex-team.ru/BSDEV-65102
-	- bstat-updaters https://st.yandex-team.ru/BSRELEASE-96174 проверяется на 10-ке
-	- yabs-bssoap-www готов для выкладки
 	- графики https://grafana.yandex-team.ru/dashboard/db/bs-transport-bol-shoi-transport?orgId=1&from=now-12h&to=now
 	- графики http://ppcgraphite.yandex.ru/grafana/dashboard/db/direct-bsexport?refresh=2m&orgId=1
+	- https://st.yandex-team.ru/BSRELEASE-98161 (тестируется)
 	- подтверждение видимости
-	- Context->{Type} = cpm_banner (накодили)
-	- добавить EShowsBase в миллионнных долях, MaxRF в миллионных долях, RFDays (накодили)
-	- PlaceID = 1542 (в BannerXX.PlaceID и в контексте баннера)
-!!!) только для поиска разрабатываем только недельный бюджет и РОИ и перевозим заказы и этого получается достаточно для первого запуска который надо успеть за три недели
-2) export_order-auction-info.cgi https://st.yandex-team.ru/BSDEV-65319
 3) b2b Автобюджета + поддрежка yt
-8) https://st.yandex-team.ru/DYNSMART-461 подумать про ошибку эксперимента
 6) Продумать несколько целей (посмотреть как в ретаргентинге это устроено, запланировать abconversion)
+	- разработка в транспорте
 2) Написать тест на region-id
 3) Запланировать удаление AuctionBannerPhrase
 2) Продумать АБ + эксприменты над другими параметрами АБ (эксперименты по рекомендациям на изменение параметров)
