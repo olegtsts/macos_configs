@@ -1,4 +1,4 @@
-def plot_tsv(src, cols, colors):
+def plot_tsv(src, cols, colors, coefs):
     number_col = {}
     first_row = True
     rows = []
@@ -24,7 +24,7 @@ def plot_tsv(src, cols, colors):
         cur_points = []
         index = 0
         for row in rows:
-            cur_points.append([index, row[col]])
+            cur_points.append([index, (float(row[col]) * coefs[color_index])])
             index += 1
         g += line(cur_points, color=colors[color_index])
         color_index += 1
