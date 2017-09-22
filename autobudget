@@ -1,3 +1,4 @@
+-3) Написать задачи группы на вики-странице https://wiki.yandex-team.ru/users/tudalova/BK-Status/
 4) VCG
 	- autobudget-marginal-vcg-search-angle (включено на bstat5??), надо проверять
 5) AB + PhrasePrice.BannerID
@@ -25,6 +26,9 @@
 12) https://rb.yandex-team.ru/arc/r/302907/ стилистические замечания
 7) Нужно ли включить ограничивалку lm-phrase не на перформансе?
 8) посмотреть ограничение лимитов в сети https://st.yandex-team.ru/BSDEV-62905
+10) Продумать про окончательный выпил чтения PhrasePrice (много делать еще в п. 7), LocalOrderInfo (RotationGoalID заполняется бананой без фида), OrderNobroad (апдейтится скриптом broadmatch-limitation). Тут много от автобюджета, поэтому пусть за это отвечает Олег Царьков.
+11) Анализатор Аномалий сделать left join
+12) Починить патчилку анализатора
 
 АБ непродуманные задачи:
 1) Продумать АБ для охватного продукта https://st.yandex-team.ru/BSDEV-65173
