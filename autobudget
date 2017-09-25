@@ -1,11 +1,13 @@
--3) Написать задачи группы на вики-странице https://wiki.yandex-team.ru/users/tudalova/BK-Status/
+-1) Как принимать входные параметры урлы в охватном продукте
+	- завести ресурсы в templateresource https://st.yandex-team.ru/BSRELEASE-99144
+	- настроить контент-систему
+-2) выкладывать yabs-autobudget-forecast чтобы включить эксперимент для skyscanner
+0) Исследовать расхождения b2b yabs-autobudget2
 4) VCG
-	- autobudget-marginal-vcg-search-angle (включено на bstat5??), надо проверять
+	- autobudget-marginal-vcg-search-angle (включено на bstat5??, bstat1??, bstat0??), надо проверять
 5) AB + PhrasePrice.BannerID
-	- проставить опцию autobudget-skip-duplicate-phrases, чтобы включить правильную логику (включили на bstat3??)
-2) Запланировать стратегию охватного продукта https://st.yandex-team.ru/BSDEV-64258
-1) Букинг -- рассчет price через вероятности
-	- доделать скрипт который сам генерирует лог (применяем один из фидов букинга)
+	- опция autobudget-skip-duplicate-phrases bstat*
+2) Кодить стратегию охватного продукта https://st.yandex-team.ru/BSDEV-64258
 5) Починить full_eir
 3) Стартануть задачу про GoalID bigint
 6) Перетраты резкие ContextLimit https://st.yandex-team.ru/BSDEV-62905
