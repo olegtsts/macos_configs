@@ -1,0 +1,35 @@
+ServerAliveInterval 15
+
+Host *
+  SendEnv LC_SPECIAL
+  ForwardAgent yes
+  StrictHostKeyChecking no
+  HashKnownHosts no
+  UserKnownHostsFile=/dev/null
+  LogLevel=ERROR
+
+Host dev
+  User olegts
+  Hostname 127.0.0.1
+  Port 8001
+
+Host devold
+  User uweb
+  Hostname 127.0.0.1
+  Port 8000
+
+Host haze
+  User olegts
+  Hostname olegts.haze.yandex.net
+
+Host bssoap
+  User root
+  Hostname 2a02:6b8:b010:23::2:fe49
+
+Host bstat01
+  User root
+  Hostname 2a02:6b8:b010:23::2:fe4a
+
+Host bstat02
+  User root
+  Hostname 2a02:6b8:b010:23::2:fe4b
