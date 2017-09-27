@@ -1,11 +1,19 @@
+-2) выкладывать yabs-autobudget-forecast чтобы включить эксперимент для skyscanner
+-5) АБ фильтр
+	- https://st.yandex-team.ru/AFALERTS-984
+	- https://st.yandex-team.ru/AFALERTS-960
+-4) crm схема включить ли ее на некоторых компаниях?
+	https://st.yandex-team.ru/BSDEV-61277
+-3) Букинг: как теперь применять файл?
+	- получилось ли изменить источник данных для избежания проблем отставания?
+	-
 -2) перевыложить базовый слой
 	- https://sandbox.yandex-team.ru/task/154552833/view
 	- https://nanny.yandex-team.ru/ui/#/services/catalog/production_yabs_autobudget_pre/files
 -1) Как принимать входные параметры урлы в охватном продукте
-	- завести ресурсы в templateresource https://st.yandex-team.ru/BSRELEASE-99144
+	- завести ресурсы в templateresource https://st.yandex-team.ru/BSRELEASE-99144 -- готов к выполнению
 	- настроить контент-систему
 0) запланировать currency.picturemincost
--2) выкладывать yabs-autobudget-forecast чтобы включить эксперимент для skyscanner
 0) Исследовать расхождения b2b yabs-autobudget2
 4) VCG
 	- autobudget-marginal-vcg-search-angle (включено на bstat5??, bstat1??, bstat0??, bstat2??, bstat3??), надо проверять
@@ -37,7 +45,9 @@
 8) посмотреть ограничение лимитов в сети https://st.yandex-team.ru/BSDEV-62905
 10) Продумать про окончательный выпил чтения PhrasePrice (много делать еще в п. 7), LocalOrderInfo (RotationGoalID заполняется бананой без фида), OrderNobroad (апдейтится скриптом broadmatch-limitation). Тут много от автобюджета, поэтому пусть за это отвечает Олег Царьков.
 11) Анализатор Аномалий сделать left join
+	- и поддержка null-value
 12) Починить патчилку анализатора
+13) Дебаг движка почему он медленно работает
 
 АБ непродуманные задачи:
 1) Продумать АБ для охватного продукта https://st.yandex-team.ru/BSDEV-65173
