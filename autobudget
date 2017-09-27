@@ -1,13 +1,20 @@
+-2) перевыложить базовый слой
+	- https://sandbox.yandex-team.ru/task/154552833/view
+	- https://nanny.yandex-team.ru/ui/#/services/catalog/production_yabs_autobudget_pre/files
 -1) Как принимать входные параметры урлы в охватном продукте
 	- завести ресурсы в templateresource https://st.yandex-team.ru/BSRELEASE-99144
 	- настроить контент-систему
+0) запланировать currency.picturemincost
 -2) выкладывать yabs-autobudget-forecast чтобы включить эксперимент для skyscanner
 0) Исследовать расхождения b2b yabs-autobudget2
 4) VCG
-	- autobudget-marginal-vcg-search-angle (включено на bstat5??, bstat1??, bstat0??), надо проверять
+	- autobudget-marginal-vcg-search-angle (включено на bstat5??, bstat1??, bstat0??, bstat2??, bstat3??), надо проверять
+	- ждем подтверждения включать везде
 5) AB + PhrasePrice.BannerID
-	- опция autobudget-skip-duplicate-phrases bstat*
+	- b2b с удалением
+	- https://st.yandex-team.ru/BSDEV-65887 -- тут разбирательство закончилось ли?
 2) Кодить стратегию охватного продукта https://st.yandex-team.ru/BSDEV-64258
+	- исследуем результат b2b
 5) Починить full_eir
 3) Стартануть задачу про GoalID bigint
 6) Перетраты резкие ContextLimit https://st.yandex-team.ru/BSDEV-62905
