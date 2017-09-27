@@ -1,0 +1,1 @@
+curl 'http://bsint.yandex-team.ru/devapi/debuilder.cgi?act=build&package=yabs-bstat-collectors-clickhouse&debuild_version=yabs-precise&version=45584.BSDEV.001&source=bamboo&path=//svn.yandex.ru/yabs/task/bstat-collectors-clickhouse/BSDEV-45584'

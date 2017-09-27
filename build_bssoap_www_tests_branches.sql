@@ -1,0 +1,1 @@
+curl 'http://bsint.yandex-team.ru/devapi/debuilder.cgi?act=build&package=qabs-soap-tests-direct&debuild_version=yabs-precise&version=65102.BSDEV.005&source=bamboo&path=//svn.yandex.ru/QA/YaBS/task/qabs-soap-tests-direct/BSDEV-65102-2'

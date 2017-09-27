@@ -1,0 +1,1 @@
+curl 'http://bsint.yandex-team.ru/devapi/debuilder.cgi?act=build&package=yabs-export-scripts-fast&debuild_version=yabs-precise&version=56101.BSDEV.001&source=bamboo&path=//arcadia.yandex.ru/arc/branches/yabs/task/yabs-export-scripts-fast/BSDEV-56101'

@@ -1,0 +1,1 @@
+curl 'http://bsint.yandex-team.ru/devapi/debuilder.cgi?act=build&package=yabs-autobudget-forecast&debuild_version=yabs-precise&version=55620.BSDEV.001&source=bamboo&path=//arcadia.yandex.ru/arc/branches/yabs/task/autobudget-forecast/BSDEV-55620'
