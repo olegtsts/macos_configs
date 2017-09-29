@@ -1,1 +1,1 @@
-curl 'http://bsint.yandex-team.ru/devapi/debuilder.cgi?act=build&package=yabs-autobudget2&debuild_version=yabs-precise&version=64256.BSDEV.003&source=bamboo&path=//arcadia.yandex.ru/arc/branches/yabs/task/yabs-autobudget2/BSDEV-64256'
+curl 'http://bsint.yandex-team.ru/devapi/debuilder.cgi?act=build&package=yabs-autobudget2&debuild_version=yabs-precise&version=64256.BSDEV.005&source=bamboo&path=//arcadia.yandex.ru/arc/branches/yabs/task/yabs-autobudget2/BSDEV-64256'
