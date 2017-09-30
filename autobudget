@@ -1,9 +1,6 @@
--2) выкладывать yabs-autobudget-forecast чтобы включить эксперимент для skyscanner
 -4) crm схема включить ли ее на некоторых компаниях?
 	https://st.yandex-team.ru/BSDEV-61277
--2) перевыложить базовый слой
-	- https://sandbox.yandex-team.ru/task/154552833/view
-	- https://nanny.yandex-team.ru/ui/#/services/catalog/production_yabs_autobudget_pre/files
+-2) выкладывать yabs-autobudget-forecast чтобы включить эксперимент для skyscanner
 -1) Как принимать входные параметры урлы в охватном продукте
 	- завести ресурсы в templateresource https://st.yandex-team.ru/BSRELEASE-99144 -- готов к выполнению
 	- настроить контент-систему
@@ -40,7 +37,7 @@
 	- и поддержка null-value
 12) Починить патчилку анализатора
 13) Дебаг движка почему он медленно работает
-14) Выключить оптимизацию autobudget-lazy-phrases-load-portion https://st.yandex-team.ru/SUPBS-10463
+14) Выключить оптимизацию autobudget-lazy-phrases-load-portion https://st.yandex-team.ru/SUPBS-10463 https://st.yandex-team.ru/BSDEV-65945
 15) Исправить мониторинг Автобюджета: выключенные баннера
 16) Переставить все опции с bstat* на *
 
