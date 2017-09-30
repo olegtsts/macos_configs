@@ -17692,4 +17692,58 @@ sas1-8336-23202.vm.search.yandex.net
 
 64256.BSDEV.003
 
+sudo installer -verbose -pkg Downloads/SIMBL-0.9.9/SIMBL-0.9.9.pkg -target /
+sudo rm -rf /System/Library/ScriptingAdditions/SIMBL.osax
+sudo mv /Library/ScriptingAdditions/SIMBL.osax /System/Library/ScriptingAdditions/
+sudo cp -p /System/Library/ScriptingAdditions/SIMBL.osax/Contents/Resources/SIMBL\Agent.app/Contents/Resources/net.culater.SIMBL.Agent.plist /System/Library/LaunchAgents/
+sudo sed -e "s/Library/System\/Library/" -i "" /System/Library/LaunchAgents/net.culater.SIMBL.Agent.plist
+
+OrderInfo.ContentType = 'reach'
+AutoBudgetOrder.OptimizeType = 3
+AutoBudgetOrder.MaxCPM
+AutoBudgetOrder.AvgCPM
+AutoBudgetStatCurWeek.Shows
+ABExperimentCurWeek.Shows
+AutoBudgetAdjustedStat.Shows
+AutoBudgetAdjustedStat.EShows
+
+
+
+Fri Sep 29 13:19:08 MSK 2017 -- время опций на bstat33
+
+YASMS https://grantushka.yandex-team.ru/grants/issue/10763/
+https://doc.yandex-team.ru/Passport/YaSMSDevGuide/reference/checkphone.html
+https://grantushka.yandex-team.ru/grants/issue/10763/
+
+
+Поиск 20170922190000-20170929150000 bstat1-bstat20
+#|
+||RShows|RClicks|RCost|RActions|CurShows|CurClicks|CurCost|CurActions||
+||0.99002395 | 1.01454592 | 1.00709939 | 1.17384100 | 25986117 | 1054452 | 506568727169 | 16994||
+|#
+
+РСЯ 20170922190000-20170929150000 bstat1-bstat20
+#|
+||RShows|RClicks|RCost|RActions|CurShows|CurClicks|CurCost|CurActions||
+||0.98553471 | 1.00967714 | 0.96524128 | 1.15212015 | 579100358 | 1061159 | 399552253195 | 11847||
+|#
+
+
+Поиск 20170926130000-20170929150000 bstat20-bstat39
+#|
+||RShows|RClicks|RCost|RActions|CurShows|CurClicks|CurCost|CurActions||
+||1.06626013 | 1.05938296 | 1.07780073 | 1.03127534 | 18491154 | 650919 | 318623389292 | 10620||
+|#
+
+РСЯ 20170926130000-20170929150000 bstat20-bstat39
+#|
+||RShows|RClicks|RCost|RActions|CurShows|CurClicks|CurCost|CurActions||
+||1.00133646 | 0.98592674 | 0.97792056 | 1.00917740 | 305253589 | 553457 | 216149378451 | 5681||
+|#
+
+
+Максим Сысоев
+Валентин Сарычев
+Авапс
+
 
