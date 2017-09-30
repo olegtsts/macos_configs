@@ -10,6 +10,7 @@ my $targets = [];
 foreach my $target_templates (
 	["five_min.XXX.skyman.down.accepted"],
 	["one_min.XXX.logcount_*.count"],
+	["one_min.XXX.slavestat_yabs.behind_master"],
 	["one_min.XXX.diskstat_util*.util"],
 	["one_min.XXX.netstat_bytes*.*"],
 	["one_min.XXX.meminfo.free", "one_min.XXX.meminfo.total"],
