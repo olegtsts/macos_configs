@@ -19,7 +19,7 @@ fi
 
 defaults write com.apple.Terminal CopyAttributesProfile com.apple.Terminal.no-attributes
 
-source ~/.bash_aliases
+#source ~/.bash_aliases
 alias screen='if [ $MYVIMRC ] ; then echo '1' > ~/is_there_vim; else echo '0' > ~/is_there_vim; fi && pwd > ~/screen_pwd && /usr/bin/screen -RDS'
 
 function svngrep() {
