@@ -17,6 +17,7 @@ foreach my $target_templates (
 ) {
 	my $targets = [];
 	foreach my $host (@$hosts) {
+		$host =~ s/\./_/g;
 		foreach my $target_template (@$target_templates) {
 			my $target = $target_template;
 			$target =~ s/XXX/$host/g;
