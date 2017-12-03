@@ -1,1 +1,1 @@
-curl 'http://bsint.yandex-team.ru/devapi/debuilder.cgi?act=build&package=yabs-bssoap-www&debuild_version=yabs-precise&version=65102.BSDEV.004&source=bamboo&path=//arcadia.yandex.ru/arc/branches/yabs/task/yabs-bssoap-www/BSDEV-65102-2'
+curl 'http://bsint.yandex-team.ru/devapi/debuilder.cgi?act=build&package=yabs-bssoap-www&debuild_version=yabs-precise&version=66308.BSDEV.005&source=bamboo&path=//arcadia.yandex.ru/arc/branches/yabs/task/yabs-bssoap-www/BSDEV-66308-2'

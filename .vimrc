@@ -14,7 +14,6 @@ map <C-n> :noh <Enter>
 imap <C-n> <ESC>:noh <Enter> i
 vnoremap <silent><C-n> :noh <Enter>
 
-
 "hi cppSTLfunction ctermfg=6
 "hi cIncluded ctermfg=7
 "hi cppStructure ctermfg=1
@@ -55,6 +54,7 @@ autocmd BufEnter * :syntax sync fromstart
 autocmd BufEnter *.py set ai sw=4 ts=4 sta et fo=croql softtabstop=4
 autocmd BufEnter *.sage set ai sw=4 ts=4 sta et fo=croql softtabstop=4
 autocmd BufEnter *.cpp set ai sw=4 ts=4 sta et fo=croql softtabstop=4
+autocmd BufEnter *.proto set ai sw=4 ts=4 sta et fo=croql softtabstop=4
 autocmd BufEnter *.tex hi Error NONE
 
 com I call Import()
