@@ -1,7 +1,7 @@
 syntax on
 filetype plugin indent on
 imap <Nul> <C-X><C-U>
-imap § <C-P>
+imap § <C-p>
 map <C-t> :!~/pdflatex.pl % remote <Enter> <Enter>
 imap <C-t> <Esc> :!~/pdflatex.pl % remote <Enter> <Enter>
 vnoremap <silent><C-t> :!~/pdflatex.pl % <Enter> <Enter>
@@ -55,6 +55,7 @@ autocmd BufEnter *.py set ai sw=4 ts=4 sta et fo=croql softtabstop=4
 autocmd BufEnter *.sage set ai sw=4 ts=4 sta et fo=croql softtabstop=4
 autocmd BufEnter *.cpp set ai sw=4 ts=4 sta et fo=croql softtabstop=4
 autocmd BufEnter *.proto set ai sw=4 ts=4 sta et fo=croql softtabstop=4
+autocmd BufEnter *.yml set ai sw=4 ts=4 sta et fo=croql softtabstop=4
 autocmd BufEnter *.tex hi Error NONE
 
 com I call Import()

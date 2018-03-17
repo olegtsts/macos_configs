@@ -22,7 +22,7 @@ if ($res) {
 }
 
 foreach (1..2) {
-	my $res = execute_command("/Library/TeX/texbin/pdflatex -interaction errorstopmode -halt-on-error $file_name");
+	my $res = execute_command("/Library/TeX/texbin/pdflatex -interaction errorstopmode -halt-on-error $file_name || rm $base_filename.pdf");
 
 	print_smth("");
 	if ($res) {
